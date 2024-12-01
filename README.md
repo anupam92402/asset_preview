@@ -22,6 +22,8 @@ It is a simple project built using Golang. It opens a browser window and display
 4. An `preview_assets.html` file will be generated. It will open in the default browser.  
 The file will be generated in the current directory.
 
+**Note: Do not push this file to the version control.**
+
 
 ## How to build
 1. Clone the repository.
@@ -44,8 +46,6 @@ go build
 4. Create a pull request.
 
 All contributions are welcome! 🤗 
-
-**Note: Do not push this file to the version control.**
 
 ## TODO
 - [ ] Test on Windows, Linus OS
