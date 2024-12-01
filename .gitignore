@@ -25,4 +25,5 @@ go.work.sum
 .env
 
 main
+assets-preview
 preview_assets.html

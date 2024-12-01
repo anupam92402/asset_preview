@@ -19,10 +19,34 @@ It is a simple project built using Golang. It opens a browser window and display
 ./asset-preview -path="/path/to/assets"
 ```
 
-4. An `preview_assets.html` file will be generated. It will open in the default browser. 
-*Do not push this file to the version control.*
+4. An `preview_assets.html` file will be generated. It will open in the default browser.  
+The file will be generated in the current directory.
+
+
+## How to build
+1. Clone the repository.
+2. Run the following command to build the binary.
+
+```bash
+go build
+```
+
+3. Run the binary in the root directory of the project. Or in the directory where the assets are located.
+
+```bash
+./asset-preview
+```
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch.
+3. Make changes.
+4. Create a pull request.
+
+All contributions are welcome! 🤗 
+
+**Note: Do not push this file to the version control.**
 
 ## TODO
 - [ ] Test on Windows, Linus OS
 - [ ] Add command line arguments to take in the file types to preview
-
